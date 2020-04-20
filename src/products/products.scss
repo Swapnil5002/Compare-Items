@@ -1,0 +1,104 @@
+.container {
+    height: 100vh;
+    .close-btn {
+        position: absolute;
+        left: 41%;
+        cursor: pointer;
+        background-color: silver;
+        border-radius: 25px;
+        padding: 5px;
+    }
+    .drop-down {
+        margin-top: 12px;
+    }
+    .item-cont {
+    .cont {
+        background: rgb(209, 209, 209);
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 23px;
+        }
+    }
+    }
+    .radio-btn {
+        margin-top: 36%;
+    }
+    .cost-cont {
+        display: flex;
+        flex-direction: row;
+        .discount-price {
+            font-weight: 600;
+        }
+        .original-price {
+            font-weight: 600;
+            margin-left: 10px;
+            color: rgb(136, 135, 135);
+        }
+        .discount {
+            font-weight: 600;
+            margin-left: 10px;
+            color: rgb(10, 136, 10);
+        }
+    }
+    .top-cont {
+        display: flex;
+        flex-direction: row;
+        .top {
+            width: 22%;
+        }
+    }
+    .tv-cont {
+        width: 39%;
+        .tv-img {
+            width: 35%;
+        }
+    }
+    .title {
+        padding: 15px;
+        font-size: 18px;
+        width: 98%;
+        text-align: left;
+        background-color: rgb(228, 227, 227); 
+        font-weight: 800;
+        margin: 0;
+    }
+    .feature-container {
+        display: flex;
+        flex-direction: row;
+        .value {
+            width: 37%;
+            margin-left: 5%;
+            border-left: 1px solid rgb(185, 185, 185);
+            border-right: 1px solid rgb(185, 185, 185);
+            padding: 10px;
+        }
+    .features-list {
+        width: 17%;
+        .feature {
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .feature-value {
+            margin-left: 25%;
+            font-size: 18px; 
+        }
+    }
+}
+    .top {
+        width: 9%;
+        display: flex;
+        flex-direction: column;
+        .compare {
+            margin-bottom: 4px;
+        }
+        .item {
+            margin: 0;
+        }
+
+}
